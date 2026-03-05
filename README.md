@@ -5,7 +5,7 @@
 - **UFID:** 70583368
 
 ## Overview
-Implements and compares three cache eviction policies — FIFO, LRU, and OPTFF (Belady's optimal) on a given request sequence.
+Implements and compares three cache eviction policies — FIFO, LRU, and OPTFF (Belady's optimal) — on a given request sequence.
 
 ## Requirements
 - Python 3.10+
@@ -49,8 +49,6 @@ cache-eviction/
 │   ├── file1.in / file1.out
 │   ├── file2.in / file2.out
 │   └── file3.in / file3.out
-├── tests/
-│   └── test_cache.py
 └── README.md
 ```
 
